@@ -383,6 +383,11 @@ a {
   .mobile-nav-active .navmenu > ul {
     display: block;
   }
+  @media (min-width: 500px) {
+    .navmenu {
+      display: none;
+    }
+  }
 }
 section,
 .section {
@@ -490,6 +495,9 @@ section,
   .hero p {
     font-size: 18px;
     line-height: 24px;
+  }
+  .app-store {
+    margin-bottom: 13px;
   }
 }
 
